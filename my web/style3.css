@@ -1,0 +1,148 @@
+body{
+	background-color: lightblue;
+	}
+div.welcome1{
+	border: 1px solid green;
+	text-align:center;
+	color: green;
+	}
+input[type=text] {
+	    width: 150px;
+	    box-sizing: border-box;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;
+	    font-size: 16px;
+	    padding: 12px 20px 12px 40px;
+	    transition: width 0.4s ease-in-out;
+	    position: fixed;
+	}
+#search{
+	left: 10px;
+	position: relative;
+}
+input[type=text]:focus {
+	    width: 20%;
+	}
+marquee.marquee{
+	color: green;
+	font-family: Cambria;
+	}
+p.search{
+	color: white;
+	text-align:right;
+	font-family:Cambria;
+	}
+ul.menu{
+	list-style:none;
+    }
+li {
+	font-size: 22px;
+	float: left;
+	padding-left: 90px;
+ }
+
+div.slidebar{
+	text-align:center;
+	padding: 5px;
+	color: white;
+	background-color: green;
+ }
+ a {
+	 text-decoration: none;
+	 }
+div.header{
+	border: 5px solid black;
+	font-size: 40px;
+	text-align:center;
+	color: white;
+	padding: 10px;
+	background-image: url(iphone.jpg);
+	background-repeat: repeat-x;
+	font-family: cambria;
+	}
+
+img.iphone1{
+    background: url(iphone5.jpeg) no-repeat;
+	height: 230px;
+	width: 150px;
+		}
+
+		img.iphone2{
+
+	height: 230px;
+	width: 150px;
+		}
+p{
+	font-family: Cambria;
+}
+
+/*
+a.smooth{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em 2em;
+  width: 10em;
+  border-radius: 1.5em;
+  color: #fff;
+  background-color: mediumblue;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-delay: 2s;
+  transition-timing-function: ease-out;
+
+
+}
+a.smooth:hover {
+
+  background-color: red;
+}
+*/
+div.product {
+
+}
+h3 {
+	font-size: 1.2em;
+  color: #ac267b;
+  text-align: center;
+  text-transform: uppercase;
+}
+div.content {
+	border: double #ffbc53;
+	padding: 1em;
+  background-color: #5dabde;
+  line-height: 1.5em;
+  margin: 1em;
+	width: 70%;
+	font-family: cambria;
+}
+/*
+.content img {
+	float: left;
+	width: 200px;
+	height: auto;
+	position: absolute;
+	margin-bottom: 25px;
+}
+*/
+.content h3{
+	border-bottom: 1px solid yellow;
+	text-align: left;
+}
+.content h4{
+	text-align: center;
+	font-size: 20px;
+
+}
+div.pro {
+text-align: center;
+font-size: 25px;
+}
+
+a:hover img {
+	box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+a:hover #ip, a:focus #ip{
+	transform: rotate(2deg);
+
+}

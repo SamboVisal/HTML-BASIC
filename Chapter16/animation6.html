@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Specify the Speed Curve of the Animation</title>
+<style>
+div{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+
+  animation-delay: 2s;
+  position: relative;
+/*  animation-iteration-count: 3; */
+  animation: example infinite 5s;
+
+} 
+@keyframes example {
+  from {left: 0px; background-color: red;}
+  to {left: 500px; background-color: blue;}
+}
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+</style>
+
+</head>
+
+<body>
+The following example uses the value "alternate" to make the animation first run forward, then backward, then forward:
+<div id="div1">linear</div>
+<div id="div2">ease</div>
+<div id="div3">ease-in</div>
+<div id="div4">ease-out</div>
+<div id="div5">ease-in-out</div>
+
+</body>
+</html>

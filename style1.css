@@ -1,0 +1,147 @@
+
+div.top{
+  text-align: center;
+  color: red;
+  font-size: 40px;
+  background-color: lightblue;
+  padding: 10px;
+  font-family: cursive;
+}
+
+body{
+  text-align: center;
+  background-color: gray;
+
+}
+textarea.clear{
+  height: 25%;
+  width: 210px;
+
+}
+select.clear1{
+  width: 210px;
+  margin-bottom: 5px;
+}
+/*
+input.clear1{
+  width: 200px;
+}*/
+input.se1{
+  float: right;
+  right: 35.5%;
+  position: absolute;
+}
+input.se2{
+  float: left;
+  left: 60%;
+  position: absolute;
+  margin-top: 55px;
+}
+td{
+  border: 2px solid black;
+  width: 2%;
+  text-align: center;
+  font-weight: bold;
+
+}
+th.med{
+  width: 10%;
+
+}
+.table th{
+  background-color: black;
+  color: yellow;
+
+}
+td.blue{
+  background-color: blue;
+}
+td.red{
+  background-color: red;
+}
+td{
+  background-color: lightblue;
+}
+td.sky{
+  background-color: #5dabde;
+}
+td.hot{
+  background-color: hotpink;
+}
+ul{
+  list-style: none;
+
+}
+div.table{
+  background-color: white;
+  height: 55%;
+}
+p.small{
+  color: red;
+  clear: right;
+  font-size: 20px;
+}
+#tab{
+  color: aqua;
+  width: 100%;
+}
+div.edit{
+  float: left;
+  left: 17%;
+  position: absolute;
+}
+div.add{
+  float: left;
+  left: 40%;
+  position: absolute;
+}
+div.upd{
+  float: left;
+  left: 45%;
+  position: absolute;
+}
+div.de{
+  float: right;
+  right: 44%;
+  position: absolute;
+}
+div.l{
+  float: right;
+  right: 17%;
+  position: absolute;
+}
+div.nu{
+  float: right;
+  right: 20%;
+  position: absolute;
+}
+div.nu1{
+  float: right;
+  right: 15.5%;
+  position: absolute;
+}
+.nu2{
+  display: inline-block;
+  background-color: hotpink;
+  border: 1px solid black;
+  margin: 5px;
+}
+.ye{
+  background-color: yellow;
+  border: 1px solid black;
+
+}
+.me{
+  background-color: mediumblue;
+  border: 1px solid black;
+  color: white;
+}
+.dl{
+  background-color: red;
+  border: 1px solid black;
+}
+div.lat{
+  margin: 20px;
+  float: right;
+  margin: 19px;
+}

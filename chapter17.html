@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+a.smooth{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em 2em;
+  width: 10em;
+  border-radius: 1.5em;
+  color: #fff;
+  background-color: mediumblue;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-delay: 2s;
+  transition-timing-function: ease-out;
+
+}
+a.smooth:hover {
+
+  background-color: red;
+}
+div.rotate{
+    transform: rotate(-4deg);
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    float: right;
+
+}
+div{
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+div.skewx{
+
+  transform: skewX(-30deg);
+  /* transform: skewY(10deg)
+     transform: skew()
+  */
+  margin: 10px;
+  }
+
+div.scale{
+  transform: scale(1.2);
+}
+div#myDiv1 {
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+    -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari */
+    transform: matrix(1, -0.3, 0, 1, 0, 0); /* Standard syntax */
+}
+
+div#myDiv2 {
+    -ms-transform: matrix(1, 0, 0.5, 1, 150, 0); /* IE 9 */
+    -webkit-transform: matrix(1, 0, 0.5, 1, 150, 0); /* Safari */
+    transform: matrix(1, 0, 0.5, 1, 150, 0); /* Standard syntax */
+}
+
+</style>
+</head>
+<body>
+
+<a href="" class="smooth">awesomesauce</a>
+This is original
+<div class="rotate">Why you can't do it?<br>This is rotate</div>
+<p>
+This is original
+<div class="skewx">Why you don't try again?<br>This is skewx</div>
+<p>
+This is original
+
+<div class="scale"> Dont be afarid!<br>This is scale</div>
+
+<p>
+  <p>The matrix() method combines all the 2D transform methods into one.</p>
+
+  <div>
+  This a normal div element.
+  </div>
+
+  <div id="myDiv1">
+  Using the matrix() method.
+  </div>
+
+  <div id="myDiv2">
+  Another use of the matrix() method.
+  </div>
+/* The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY()):*/
+
+</body>
+</html>

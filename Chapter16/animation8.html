@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Property</title>
+<style>
+div{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+/*  animation-iteration-count: 3; */
+/*  name duration timning-function delay interection-count direction   */
+  animation:  example 5s linear 2s infinite alternate;
+}
+@keyframes example {
+  from {left: 0px; background-color: red;}
+  to {left: 500px; background-color: blue;}
+}
+
+
+</style>
+
+</head>
+
+<body>
+The following example uses the value "alternate" to make the animation first run forward, then backward, then forward:
+<div>linear</div>
+
+
+</body>
+</html>

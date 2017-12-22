@@ -1,0 +1,29 @@
+body{
+  background-color: #1D7980;
+}
+#header{
+  border: 1px dotted black;
+  text-align: left;
+  color: #2DD8B7;
+  padding: 10px;
+  text-align: left;
+  left: 20px;
+}
+#logo{
+  float: left;
+  width: 30px;
+  height: 33px;
+}
+/*
+#h2{ margin-left: 100px; position: relative; bottom :40px;
+      font-size: 30px; text-align: center;}
+      */
+#s{
+  text-align: center;
+  color: gray;
+  bottom: 0px;
+  position: relative;
+  font-size: 30px;
+}
+span.a{float: left; left: 600px;
+  position: absolute; font-size: 25px;}

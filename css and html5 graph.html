@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Premier League Titles</title>
+<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer", {
+		theme: "theme2",//theme1
+		title:{
+			text: "Premier League Titles"
+		},
+		animationEnabled: false,   // change to true
+		data: [
+		{
+			// Change type to "bar", "area", "spline", "pie",etc.
+			type: "column",
+			dataPoints: [
+				{ label: "Chelsea", x: 4  },
+				{ label: "Arsenal", x: 3  },
+				{ label: "Manchester City",  x: 2  },
+				{ label: "Liverpool",  x: 18  },
+				{ label: "Manchester United", x: 20 },
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 100%; width: 100%;"></div>
+</body>
+</html>
